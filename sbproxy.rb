@@ -7,20 +7,20 @@ class Sbproxy < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_darwin_arm64.tar.gz"
-      sha256 "815fbcd31be43022a99374adee8b470d1e63ef9eba77314dace74bfb127266b8"
+      sha256 "ea07a3f2bfe091a0eef05c5c78e80128ac05844ccf97b7c46ea1d879c26ad672"
     else
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_darwin_amd64.tar.gz"
-      sha256 "13289c2db9459fe2618d851c1ff7ef895ac09b4128ce26e8937188f4855e99d9"
+      sha256 "3e85baea2a52c08c3ce79707f0fe50701a004e6498e21fcda55cd7411e75fb4d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_linux_arm64.tar.gz"
-      sha256 "d3628f573b663869ec30b2009c1e3f01c9b85512d4850eb5514a5f4d5f3786af"
+      sha256 "8798fc7c0c8adf25532e9ebfc9f30ea38df69d8ccfe30ccdfa378d32076ad9d7"
     else
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_linux_amd64.tar.gz"
-      sha256 "568647b1acff944f907a341d2f17ae202dbf556f8c6e6f10110bae5df66ff905"
+      sha256 "b958576bcae9f3497ec385883a3eca991dd7266d36cfd5ba52a583ae69959724"
     end
   end
 
