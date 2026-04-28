@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Formula](https://img.shields.io/badge/Homebrew-sbproxy-orange)](https://github.com/soapbucket/homebrew-sbproxy)
 
-Homebrew tap for [SBproxy](https://sbproxy.dev), a high-performance reverse proxy and AI gateway. Single binary, one YAML config, 103+ LLM providers.
+Homebrew tap for [SBproxy](https://sbproxy.dev), the AI gateway built like a real proxy. Single binary, one YAML config, 103+ LLM providers.
 
 ## Install
 
