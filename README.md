@@ -33,7 +33,7 @@ sbproxy --version
 - [Website](https://sbproxy.dev)
 - [Documentation](https://sbproxy.dev/docs)
 - [GitHub](https://github.com/soapbucket/sbproxy)
-- [SBproxy Cloud](https://cloud.sbproxy.dev)
+- [SBproxy Enterprise](https://sbproxy.dev/enterprise)
 
 ## License
 
