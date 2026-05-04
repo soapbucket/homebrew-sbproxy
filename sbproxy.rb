@@ -1,26 +1,26 @@
 class Sbproxy < Formula
-  desc "High-performance reverse proxy and AI gateway"
+  desc "The AI gateway built like a real proxy"
   homepage "https://sbproxy.dev"
   license "Apache-2.0"
-  version "1.0.0-go-final"
+  version "0.1.2-final"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_darwin_arm64.tar.gz"
-      sha256 "28d8d697c35fb820f041715e9d59165f7a16c60bd1174d341d39d9a163f6ac28"
+      sha256 "b4ae9c1be03924f1224b42cc5d2aaafa735daf1fdd6ce37307de37f21957aa5c"
     else
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_darwin_amd64.tar.gz"
-      sha256 "a5d2c67e69291ea082073ca8fc4def00f639405d7c05c7fb74039f9628f8ee5a"
+      sha256 "e5962de71919f5382f41c06540429b7048818b5d936b1115802714f28210ee80"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_linux_arm64.tar.gz"
-      sha256 "db0d37928263c1cc38669c9847f9aa8366ca4a70729e6fee18ce5b433078302d"
+      sha256 "ab42eb3f6691655e14942b4fcbbac33bbba0b5e9f4854b73381c888017b0b447"
     else
       url "https://github.com/soapbucket/sbproxy/releases/download/v#{version}/sbproxy_linux_amd64.tar.gz"
-      sha256 "a8d0631802f74f4caafa003e5574fa0a9ce9ddabb45f4897e7dce571857d5834"
+      sha256 "32ec9b3d2ab71495ec6877e88b10f764e932abf66755e7d85420489dc0713cf5"
     end
   end
 
